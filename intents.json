@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "What sports are there?", 
+        "How many games are there", 
+        "available sports"],
+      "responses": [
+        "There are hockey,football,rugby,basketball,judo,handball sport games",
+        "There 7 sports activites",
+        "Number of sports are 7"
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What departments are there?", 
+        "How many departmernts are there", 
+        "Number of departments"],
+      "responses": [
+        "There are 10 departments in the school of SCI",
+        "there are almost 10 departments in  SCI",
+        "The number of departments are 10"
+      ]
+    },
+    {
+      "tag": "Schools",
+      "patterns": [
+        "What schools are there?", 
+        "How many schools are there", 
+        "Number of schools"],
+      "responses": [
+        "There are SCI,SOBE,SEDU,SONA,SOAS schools in Mmust",
+        "there are almost 8 schools in  Mmust",
+        "The number of schools are 8"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Okay"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "holidays",
+      "patterns": [
+        "When are holidays ? ",
+        "What kinds of holidays are there?",
+        "What holidays do we have?",
+        "tell more about holidays",
+        "holidays when ???",
+        "which days are holidays ?",
+        "How many days can we get after each sem ?" ,
+        "Can we get study leave ?",
+        "what are the biggest holidays we can get ??",
+        "Are there any department wise special holiday ?"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Do you know the lecturers ?",
+        "Who are the lecturers ?",
+        "Can you tell more about lecturers?",
+        "Tell me about lecturers  ",
+        "more info on lecturers",
+        "what are the lecturers ?",
+        "tell more about the lecturers",
+        "narula lecturers",
+        "who is the the vice chancellor??" 
+      ],
+      "responses": [
+        "Our Vice Chancellor is  Prof. Emily wangila. "
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which Courses are offered here",
+        "tell me more about BIT",
+        "More info on BBIT please",
+        "What is BSCIT ?",
+        "What is DIT ?",
+        "When do BSCIT gets completed ?",
+        "How long does DIT take ?",
+        "which Course are best here ?" ,
+        "what about the fees Stucture ?" ,
+        "Are there any medical course ?" ,
+        "how long will take to complete those course ?"
+      ],
+      "responses": ["The courses offered include, Bsc IT, DIT, BBIT", "DIT takes 2 years"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "result",
+      "patterns": [
+        "WHAT is my SGPA this sem ?",
+        "What is my CGPA this sem",
+        "Do you know my result?",
+        "Do you know my CGPA?",
+        "Do you know my curent cgpa?",
+        "tell me my cgpa?",
+        "tell me my curent sgpa?",
+        "tell me my result",
+        "what is my result"
+      ],
+      "responses": ["tell me your student id , example : \n434121010021"]
+    }
+  ]
+}
